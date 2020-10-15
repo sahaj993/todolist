@@ -1,0 +1,121 @@
+body{
+    /*background-color: #7075ab;*/
+    margin: 0;
+}
+
+#body {
+    height: 100vh;
+    background-image: linear-gradient(45deg,#ff6161,#ff768c);
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    top: 80px;
+    left: 360px;
+    background-color:  transparent;
+    /*border: 2px solid black; */
+    width: 45%;
+}
+
+.addTask {
+    margin: auto;
+    background-color: #fff;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 20px 38px;
+    /*border-bottom: 1px solid #53BDFF;*/
+}
+
+::placeholder {
+    color: #ff6161;
+}
+
+.addTask input {
+    border: none;
+    outline: none;
+    background: none;
+    color: #7b6060a6;
+    width: 80%;
+    float: left;
+    font-size: 18px;
+}
+
+.task-container {
+    background-color: #fff;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+}
+
+.main-btn {
+    position: absolute;
+    right: -1px;
+    background: none;
+    margin-right: -10px;
+    outline: none;
+    background: none;
+    border: none;
+    display: flex;
+}
+
+.tick-btn {
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    color: #7b6060a6;
+    width: 50%;
+}
+
+.del-btn {
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    color: #7b6060a6;
+    display: flex;
+    flex: 1;
+}
+
+.addTask button {
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    color: #ff6161;
+    float: right;
+    text-align: center;
+}
+
+ul {
+    width: 70%;
+    margin-left: 40px;
+    list-style-type: none;
+}
+
+ul p {
+    color: #53BDFF;
+    text-align: center;
+    /*border: 2px solid black;*/
+    /* width: 80%; */
+}
+
+li {
+    color: #7b6060a6;
+    position: relative;
+    /*border: 2px solid black;*/
+    max-width: 450px;
+    display: flex;
+    margin:10px 20px 0;
+}
+
+li button {
+    margin-left: 5px;
+}
+
+#tasks {
+    margin-left: 20px;
+    color: #7b6060a6;
+}
