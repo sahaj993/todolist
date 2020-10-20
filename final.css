@@ -1,18 +1,17 @@
 body{
     /*background-color: #7075ab;*/
-    margin: 0;
+    margin: 50px 0;
+    background-image: linear-gradient(45deg,#ff6161,#ff768c);
+    overflow: hidden;
 }
 
 #body {
     height: 100vh;
-    background-image: linear-gradient(45deg,#ff6161,#ff768c);
-    position: relative;
+    min-width: 800px;
 }
 
 .container {
-    position: absolute;
-    top: 80px;
-    left: 360px;
+    margin: auto;
     background-color:  transparent;
     /*border: 2px solid black; */
     width: 45%;
